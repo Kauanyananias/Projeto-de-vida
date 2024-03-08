@@ -36,6 +36,7 @@ body{
     color: var(--verde);
 }
 
+
 .botao{
     font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
@@ -60,10 +61,21 @@ body{
     display: block;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
+
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px
+    border-radius: 0 0 40px 40px;
+}
+.aba-conteudo.ativo{
+    dispaly:block;
+}
+
+.aba-conter
 
 @media screen and (mind-width: 768px) {
     .botoes{
